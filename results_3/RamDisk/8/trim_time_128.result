@@ -1,0 +1,17 @@
+fstrim: /mnt: the discard operation is not supported
+
+ Performance counter stats for 'fstrim /mnt':
+
+          1.399600      task-clock (msec)         #    0.677 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               121      page-faults               #    0.086 M/sec                  
+         2,929,442      cycles                    #    2.093 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+         3,286,432      instructions              #    1.12  insns per cycle        
+           666,108      branches                  #  475.927 M/sec                  
+            16,350      branch-misses             #    2.45% of all branches        
+
+       0.002066308 seconds time elapsed
+

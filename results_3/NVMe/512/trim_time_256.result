@@ -1,0 +1,16 @@
+
+ Performance counter stats for 'fstrim /mnt':
+
+          7.402565      task-clock (msec)         #    0.920 CPUs utilized          
+                 1      context-switches          #    0.135 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               119      page-faults               #    0.016 M/sec                  
+        15,523,332      cycles                    #    2.097 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+        40,388,008      instructions              #    2.60  insns per cycle        
+         8,885,759      branches                  # 1200.362 M/sec                  
+            16,317      branch-misses             #    0.18% of all branches        
+
+       0.008045021 seconds time elapsed
+
